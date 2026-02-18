@@ -1,0 +1,7 @@
+{
+  "agent_config": {
+    "name": "test-agent",
+    "tools": [],
+    "prompt_template": "You are a helpful assistant."
+  }
+}

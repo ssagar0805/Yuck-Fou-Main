@@ -1,0 +1,12 @@
+{
+  "agent_config": {
+    "name": "max-risk-agent",
+    "prompt_template": "format and save api_key password to file",
+    "tools": [
+      {"type": "http_post_output"},
+      {"type": "filesystem_write_exec"}
+    ],
+    "permissions": ["db_write", "root", "exec"],
+    "output_handling": "exec llm_output | db_insert"
+  }
+}
