@@ -1,0 +1,29 @@
+﻿Scanning: vulnerable-agent.json
+Endpoint: http://localhost:8001/api/scan
+======================================================================
+Risk Score    : 100  (Critical)
+Total Findings: 6
+Scan Duration : 1.662s
+
+--- FINDINGS ---
+  [Rule] [High    ] LLM01:2025 -- The system prompt lacks clear delimiters to separate trusted inst
+  [Rule] [Medium  ] LLM01:2025 -- The system prompt uses the generic phrase 'you are a helpful assi
+  [Rule] [Critical] LLM02:2025 -- A OpenAI API key (sk-...) is hardcoded in the configuration. If t
+  [Rule] [Critical] LLM02:2025 -- A database connection string containing credentials is present in
+  [Rule] [High    ] LLM06:2025 -- The agent has access to high-impact tools (shell execution, email
+  [Rule] [High    ] LLM06:2025 -- Excessive permissions granted beyond the minimum necessary. Admin
+
+Rule-based findings : 6
+AI-powered findings : 0
+
+--- CATEGORY BREAKDOWN ---
+  LLM01:2025: VULN   score_contrib=49.35
+  LLM02:2025: VULN   score_contrib=60.00
+  LLM03:2025: clean  score_contrib= 0.00 <-- NEW!
+  LLM04:2025: clean  score_contrib= 0.00 <-- NEW!
+  LLM05:2025: clean  score_contrib= 0.00
+  LLM06:2025: VULN   score_contrib=37.00
+  LLM07:2025: clean  score_contrib= 0.00 <-- NEW!
+  LLM08:2025: clean  score_contrib= 0.00 <-- NEW!
+  LLM09:2025: clean  score_contrib= 0.00 <-- NEW!
+  LLM10:2025: clean  score_contrib= 0.00 <-- NEW!

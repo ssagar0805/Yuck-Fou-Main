@@ -1,0 +1,3 @@
+2026-02-19 23:09:48 | INFO     | ai_security_scanner | === STARTING LLM SCANS (10 parallel Gemini calls) ===
+2026-02-19 23:09:55 | INFO     | ai_security_scanner | === LLM SCANS COMPLETE: 2 / 10 categories found vulnerabilities ===
+2026-02-19 23:09:55 | INFO     | ai_security_scanner | Scan complete | scan_id=fbdb6ef0-cffb-48fa-8b04-c99cf53e519f | risk=100 (Critical) | findings=8 | duration=6.907s
